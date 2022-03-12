@@ -1,0 +1,17 @@
+.header {
+    background-color: antiquewhite;
+    border-bottom: 1px solid black;
+
+    .menu {
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+        padding: 5px 10px;
+        
+        a {
+            text-decoration: none;
+            &:hover {
+            }
+        }
+    }
+}
